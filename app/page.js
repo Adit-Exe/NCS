@@ -6,6 +6,7 @@ export default function Home() {
   return (
   <>
    <Hero />
+   <h1 className='italic font-bold sm:text-[180%] md:text-[200%] text-[150%] text-center my-5'>Top Hits</h1>
    <div id='Box' className="flex items-center border-b-8 border-gray-100 sm:h-max h-64 flex-row w-[95%] self-center justify-self-center bg-gray-100 rounded-lg overflow-x-auto overflow-y-hidden">
         <Card image='/images/artwork-440x440 (1).jpg' title='Your Poision' artist='ROY KNOX' link='https://ncs.io/YourPoison?_gl=1*n80wr5*_up*MQ..*_ga*MTc3OTc2MzIxNS4xNzMxNTA1NDQz*_ga_PFS54FR7NV*MTczMTUwNTQ0NS4xLjAuMTczMTUwNTQ0NS4wLjAuMA..' />
         <Card image='/images/artwork-440x440 (2).jpg' title='Desparate' artist='TOKYO MACHINE, NEFFEX' link='https://ncs.io/TM_Desperate?_gl=1*d5u588*_up*MQ..*_ga*MTc3OTc2MzIxNS4xNzMxNTA1NDQz*_ga_PFS54FR7NV*MTczMTUwNTQ0NS4xLjAuMTczMTUwNTQ0NS4wLjAuMA..' />
@@ -15,7 +16,7 @@ export default function Home() {
         <Card image='/images/artwork-440x440 (6).jpg' title='Obssion' artist='More Plastic' link='https://ncs.io/Obsession?_gl=1*b0lbub*_up*MQ..*_ga*MTc3OTc2MzIxNS4xNzMxNTA1NDQz*_ga_PFS54FR7NV*MTczMTUwNTQ0NS4xLjAuMTczMTUwNTQ0NS4wLjAuMA..' />
       </div>
 
-      <h1 className='italic font-bold sm:text-[180%] md:text-[200%] text-[150%] text-center my-5'>Top Hits</h1>
+      <h1 className='italic font-bold sm:text-[180%] md:text-[200%] text-[150%] text-center my-5'>Latest</h1>
       <div id='Box' className="flex items-center border-b-8 border-gray-100 sm:h-max h-64 flex-row w-[95%] self-center justify-self-center bg-gray-100 rounded-lg overflow-x-auto overflow-y-hidden">
         <Card image='/images/artwork-440x440 (7).jpg' title='I Want U' artist='Rameses B' link='https://ncs.io/iwantu?_gl=1*b0lbub*_up*MQ..*_ga*MTc3OTc2MzIxNS4xNzMxNTA1NDQz*_ga_PFS54FR7NV*MTczMTUwNTQ0NS4xLjAuMTczMTUwNTQ0NS4wLjAuMA..' />
         <Card image='/images/artwork-440x440 (8).jpg' title='Perfection ' artist='Derek Cate, B3nte, Mangoo' link='https://ncs.io/Perfection?_gl=1*b0lbub*_up*MQ..*_ga*MTc3OTc2MzIxNS4xNzMxNTA1NDQz*_ga_PFS54FR7NV*MTczMTUwNTQ0NS4xLjAuMTczMTUwNTQ0NS4wLjAuMA..' />
@@ -27,7 +28,7 @@ export default function Home() {
       </div>
 
 
-      <h1 className='italic font-bold sm:text-[180%] md:text-[200%] text-[150%] text-center my-5'>Top Hits</h1>
+      <h1 className='italic font-bold sm:text-[180%] md:text-[200%] text-[150%] text-center my-5'>Library</h1>
       <div id='Box' className="flex items-center border-b-8 border-gray-100 sm:h-max h-64 flex-row w-[95%] self-center justify-self-center bg-gray-100 rounded-lg overflow-x-auto overflow-y-hidden">
         <Card image='/images/artwork-440x440 (14).jpg' title='From THe Top' artist='Ariis' link='https://ncs.io/FromTheTop?_gl=1*yj1sif*_up*MQ..*_ga*MTc3OTc2MzIxNS4xNzMxNTA1NDQz*_ga_PFS54FR7NV*MTczMTUwNTQ0NS4xLjAuMTczMTUwNTQ0NS4wLjAuMA..' />
         <Card image='/images/artwork-440x440 (15).jpg' title='Alright' artist='Yvvan Back, Marky style, Sync' link='https://ncs.io/Alright_YB?_gl=1*yj1sif*_up*MQ..*_ga*MTc3OTc2MzIxNS4xNzMxNTA1NDQz*_ga_PFS54FR7NV*MTczMTUwNTQ0NS4xLjAuMTczMTUwNTQ0NS4wLjAuMA..' />
